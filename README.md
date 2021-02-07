@@ -1,7 +1,7 @@
 # Spring Boot Send Email
 > Spring Boot Send Email
 >
-<img src="https://github.com/susimsek/spring-boot-send-email/blob/main/images/spring-boot-send-email.png" alt="Spring Boot Send Email" width="100%" height="100%"/> 
+<img src="https://github.com/susimsek/spring-send-email/blob/main/images/spring-boot-send-email.png" alt="Spring Boot Send Email" width="100%" height="100%"/> 
 
 ## Prerequisites
 
