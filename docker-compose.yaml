@@ -1,0 +1,16 @@
+version: "3"
+services:
+  email-sender:
+    image: email-sender:${SERVICE_IMAGE_TAG}
+    container_name: email-sender
+    restart: ${RESTART_POLICY}
+    environment:
+      - SERVER_PORT
+      - MAIL_SMTP_HOST
+      - MAIL_SMTP_PORT
+      - MAIL_SMTP_USERNAME
+      - MAIL_SMTP_PASSWORD
+      - MAIL_SMTP_TLS_ENABLE
+      - MAIL_SMTP_AUTH
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
